@@ -33,7 +33,7 @@ function Sidebar() {
 
     return (
         //Container
-        <div className="flex-1 border-r border-gray-200 h-screen min-w-min max-w-sm hide-scrollbar">
+        <div className="flex-1 border-r border-gray-200 w-8 h-screen max-w-sm hide-scrollbar">
             <div className="flex sticky top-0 bg-white z-1 justify-between items-center p-4 h-20 border-b border-gray-50">
                 <Avatar src={user.photoURL} onClick={()=>auth.signOut()} className="cursor-pointer hover:o"></Avatar>
                 <div className="">
